@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Fetcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Photo Fetcher</h1>
+      <div class="controls">
+        <label class="toggle-container">
+          <input type="checkbox" id="grayscaleToggle">
+          <span class="slider"></span>
+          <span>Make photos grayscale</span>
+        </label>
+        <button id="fetchPhotos">Fetch New Photos</button>
+      </div>
+    </header>
+    <main class="photo-grid" id="photoGrid"></main>
+    <button class="more-photos-btn" id="loadMorePhotos">More Photos</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
